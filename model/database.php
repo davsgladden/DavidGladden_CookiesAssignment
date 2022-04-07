@@ -1,13 +1,13 @@
 <?php
-    //$dsn = 'mysql:host=pk1l4ihepirw9fob.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;dbname=fltp7dq2s3ninu3t';
-    //$username = 'b1yigybqycgbh56h';
-    //$password = 'x98fnb2jyqm2y8la';
-    $dsn = 'mysql:host=localhost; dbname=zippyusedautos';
-	$username = 'root';
+    $dsn = 'mysql:host=wb39lt71kvkgdmw0.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;dbname=upu87li4nwd2xs0i';
+    $username = 'fgoh8u9dq5i6mwse';
+    $password = 'jiwjvyytjs6pugvb';
+    //$dsn = 'mysql:host=localhost; dbname=zippyusedautos';
+	$//username = 'root';
 	//$password = '';
 
     try {
-        $db = new PDO($dsn, $username);//, $password);
+        $db = new PDO($dsn, $username, $password);
     } catch (PDOException $e) {
         $error_message = $e->getMessage();
         include('view/error.php');
