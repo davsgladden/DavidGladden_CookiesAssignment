@@ -3,7 +3,7 @@
     $username = 'fgoh8u9dq5i6mwse';
     $password = 'jiwjvyytjs6pugvb';
     //$dsn = 'mysql:host=localhost; dbname=zippyusedautos';
-	$//username = 'root';
+	//$username = 'root';
 	//$password = '';
 
     try {
